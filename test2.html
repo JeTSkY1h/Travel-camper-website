@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Camper - Wohnwagenvermietung</title>
+    <meta name='description' content='Travel Camper: Ihre Wohnwagenvermietungstelle aus Overath.'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="/src/style.css">
+    <script src="https://kit.fontawesome.com/9da76449d5.js" crossorigin="anonymous"></script>
+</head>
+<body>    
+    <header>
+        <nav id='main-nav'>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a class="home-link" href="">
+                      <img id="header-img" class="header-img-margin" src="/res/A4 Travel Camper GRAU.png"></img> 
+                  </a>
+                  <a class='open-nav' onclick="openNav()"><i id='nav-icon' class="fas fa-bars"></i></a>
+              </li>
+              <!-- <li class="nav-item icon">
+                  <a class='nav-link' onclick="openNav()"><i id='nav-icon' style='display: none'class="fas fa-bars"></i></a>
+              </li> -->
+              <li class="nav-item home">
+                  <a onclick='openNav()' class="nav-link" href="index.html#home">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="dropbtn nav-link" href="/">Vermietung</a>
+                  <div class='dropdown-content'>
+                    <a class='nav-link' onclick='openNav()' href='test.html'>Mietflotte Marks</a>
+                    <a class='nav-link' onclick='openNav()' href="test2.html">Mietflotte Chohan</a>
+                  </div>
+              </li>
+              <li class="nav-item"><a onclick='openNav()' href="index.html#thecuber" class="nav-link">Verkauf</a></li>
+              <li class="nav-item">
+                  <a class="nav-link" onclick='openNav()' href="index.html#infos">Infos</a>
+              </li>
+  
+              <li class="nav-item"><a href="index.html#dinnertime" onclick='openNav()' class="nav-link">Dinnertime</a></li>
+              <li class="nav-item">
+                <a class="nav-link" onclick='openNav()' href="index.html#about">Kontakt</a>
+              </li>
+              <li id='action-link' class="nav-item dropdown right">
+                  <a class="dropbtn nav-link" href="/">Jetzt Anfragen</a>
+                  <div class='dropdown-content'>
+                    <a class='nav-link' href='test.html'>Mietflotte Marks</a>
+                    <a class='nav-link' href="test2.html">Mietflotte Chohan</a>
+                  </div>
+              </li>
+          </ul>
+          
+        </nav>
+        <div id="app-booking-container" class="tx-booking" data-stationid="4839" data-vehicletype="caravan"></div>
+
+        <script src=https://cdn.be.rentandtravel.de/wl/Plugin/App/app.js></script>
+    </header>
+</body>
+
+<script src="/src/main.js"></script>
+</html>
