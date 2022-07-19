@@ -19,7 +19,7 @@ header {
 #hero-wrapper {
     height: calc(100% - 60px);
     width: 100%;
-    background-image: url(/res/1100_W04_500-KD_EX_F_300dpi.png);
+    background-image: url(../res/1100_W04_500-KD_EX_F_300dpi.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
