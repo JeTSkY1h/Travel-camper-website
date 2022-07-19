@@ -19,7 +19,7 @@ header {
 #hero-wrapper {
     height: calc(100% - 60px);
     width: 100%;
-    background-image: url(/res/1100_W04_500-KD_EX_F_300dpi.png);
+    background-image: url(./res/1100_W04_500-KD_EX_F_300dpi.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
@@ -509,15 +509,15 @@ section {
 }
 
 .img-banner.first {
-    background-image: url(/res/1100_W08_590-UK_EX_F_eine_ebene_300dpi.jpg.png);
+    background-image: url(./res/1100_W08_590-UK_EX_F_eine_ebene_300dpi.jpg.png);
 }
 
 .img-banner.second {
-    background-image: url(/res/1100_S04_EX_KV_2020_02_300dpi.png);
+    background-image: url(./res/1100_S04_EX_KV_2020_02_300dpi.png);
 }
 
 .img-banner.third {
-    background-image: url(/res/banner3.png);
+    background-image: url(./res/banner3.png);
 }
 
 .top-img {
@@ -692,7 +692,7 @@ section {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url(/res/adventurebanner.png);
+    background-image: url(./res/adventurebanner.png);
     min-height: 1800px;
     left: 0px;
     width: 100%;
@@ -954,7 +954,7 @@ button {
 
 .test {
     background-attachment: fixed;
-    background-image: url(/res/1100_W08_590-UK_EX_F_eine_ebene_300dpi.jpg.png) ;
+    background-image: url(./res/1100_W08_590-UK_EX_F_eine_ebene_300dpi.jpg.png) ;
     width: 100%;
     height: 1000px;
     background-color: #333;
